@@ -1,0 +1,38 @@
+@import '../variable';
+.navbar {
+    background-color: $primary;
+    padding: $gap;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+
+    .search-bar {
+        flex: 1;
+        max-width: 400px;
+        position: relative;
+        margin: auto;
+    }
+
+    input {
+        border: none;
+        padding: $gap $gap*2;
+        outline: none;
+        border-radius: 4px;
+        height: 40px;
+        background-color: #464646;
+        color: white;
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+.lang-btn {
+    background-color: white;
+    border: none;
+    outline: none;
+}

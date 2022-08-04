@@ -1,4 +1,5 @@
 import React from "react";
+import TripList from "../../components/organisms/TripList";
 
 const HomePage: React.FC = () => {
     return (
@@ -10,6 +11,7 @@ const HomePage: React.FC = () => {
                     <p>Your personalized, always up-to-date travel guide!</p>
                 </div>
             </div>
+            <TripList />
         </>
     )    
 }
