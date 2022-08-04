@@ -6,8 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [x] Build the Folder structure & Routes
 - [x] Page Layout Build (Navbar & Hero & Page)
-- [ ] Implement i18n
-- [ ] List with mock data
+- [x] Implement i18n
+- [ ] Style && List with mock data
 - [ ] Infinit Scroller
 - [ ] Search Box functionality Completion
 
